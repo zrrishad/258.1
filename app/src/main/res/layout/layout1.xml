@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/edLin"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/edImage"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/birger"></ImageView>
+
+
+<TextView
+    android:id="@+id/edUser1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="zahidul islam"
+    android:textSize="20dp"
+
+  android:layout_marginLeft="10dp"></TextView>
+
+
+
+        <TextView
+            android:id="@+id/edUser2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zahidul islam"
+            android:textSize="20dp"
+
+            android:layout_marginLeft="10dp"></TextView>
+
+
+
+        <TextView
+            android:id="@+id/edUser3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zahidul islam"
+            android:textSize="20dp"
+
+            android:layout_marginLeft="10dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/edAge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:visibility="gone"></TextView>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

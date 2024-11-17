@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="#00BCD4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:orientation="vertical"
+        android:background="@drawable/custom_style"
+        android:layout_margin="7dp"
+        >
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:src="@drawable/birger"
+    android:layout_marginTop="1dp"></ImageView>
+<TextView
+    android:id="@+id/ed2Name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="   Name:         "
+    android:background="#fff"
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:textColor="#000"></TextView>
+
+        <TextView
+            android:id="@+id/ed2Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Username         "
+            android:background="#fff"
+            android:textSize="16dp"
+            android:layout_marginTop="1dp"></TextView>
+
+        <TextView
+            android:id="@+id/edPass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Password:         "
+            android:background="#fff"
+            android:layout_marginTop="1dp"
+            android:textSize="16dp"></TextView>
+
+
+
+        <TextView
+            android:id="@+id/edBlood2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Blood Group         "
+            android:background="#fff"
+            android:layout_marginTop="1dp"
+            android:textSize="16dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/edGender2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Gender        "
+            android:background="#fff"
+            android:layout_marginTop="1dp"
+            android:textSize="16dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/edAge2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Age         "
+            android:background="#fff"
+            android:layout_marginTop="1dp"
+            android:textSize="16dp"></TextView>
+
+
+
+        <TextView
+            android:id="@+id/edBirthday2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Birthday        "
+            android:textSize="16dp"
+            android:background="#fff"
+            android:layout_marginTop="1dp"
+            ></TextView>
+
+
+        <TextView
+            android:id="@+id/edHeight2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Height       "
+            android:textSize="16dp"
+            android:background="#fff"
+            android:layout_marginTop="1dp"
+            ></TextView>
+
+
+        <TextView
+            android:id="@+id/edWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Weight  "
+            android:textSize="16dp"
+            android:background="#fff"
+            android:layout_marginTop="1dp"
+            ></TextView>
+
+
+
+
+        <TextView
+            android:id="@+id/edEye2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   EyeColor      "
+            android:textSize="16dp"
+            android:background="#fff"
+            android:layout_marginTop="1dp"
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
